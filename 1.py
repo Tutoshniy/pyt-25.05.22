@@ -2,5 +2,5 @@
 list = []
 N = int(input('Введите количество чисел: '))
 for i in range(N):
-    list.append(int(input()))
+    list.append(1*((-3)**i))
 print('Список: ', list)
